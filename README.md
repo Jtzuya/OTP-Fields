@@ -45,7 +45,7 @@ Add the following input fields to your HTML:
 In script.js file, import "OTP" from OTP.js and create a new OTP instance passing the classname of OTP input fields
 
 ```javascript
-import { OTP } from './OTP.js'
+import OTP from './OTP.js'
 
 new OTP('otp-input')
 ```
